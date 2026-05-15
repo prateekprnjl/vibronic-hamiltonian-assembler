@@ -60,8 +60,8 @@ These binary files contain precomputed Hamiltonian matrix blocks.
 Example:
 
 ```text
-h2o_1photon.out
-self_h2o_1photon.out
+fc_factor.out
+self_fc_factor.out
 ```
 
 These files contain Franck–Condon overlap/coupling factors used during assembly.
