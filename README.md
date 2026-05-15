@@ -55,6 +55,8 @@ Ham_blocks_block_0_1.bin
 
 These binary files contain precomputed Hamiltonian matrix blocks.
 
+This repository does not include the full production Hamiltonian block datasets due to their large size. Users are expected to generate or supply their own Hamiltonian block data and Franck–Condon factor files compatible with the formats described in this repository.
+
 ### FC Factor Files
 
 Example:
@@ -100,12 +102,12 @@ The Hamiltonian is assembled using blockwise coupling expressions weighted by Fr
 
 A schematic form is:
 
-H_{ij}^{total} = H_{ij}^{block} \times FC_{ij}
+$H_{ij}^{total} = H_{ij}^{block} \times FC_{ij}$
 
 where:
 
-- H_{ij}^{block} is the electronic/vibronic block contribution
-- FC_{ij} is the Franck–Condon overlap factor
+- $H_{ij}^{block}$ is the electronic/vibronic block contribution
+- $FC_{ij}$ is the Franck–Condon overlap factor
 
 Additional self-coupling and diagonal corrections may also be included. Further details are provided in docs/theory.md
 
