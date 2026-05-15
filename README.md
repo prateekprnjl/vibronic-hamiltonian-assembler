@@ -37,6 +37,9 @@ src/
 data/
     blocks/            Hamiltonian block files
     fc/                FC factor input files
+
+docs/
+    theory.pdf          Theory for the Hamiltonian assembler. (logic for dipoles as well, present program can calculate that with minor modifications)
 ```
 
 ---
